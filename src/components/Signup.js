@@ -4,7 +4,6 @@ import { useAuth } from '../contexts/AuthContexts'
 import './Sign_up.css'
 import {Link, useHistory} from 'react-router-dom'
 
-
 export default function Signup(){
     
     const emailRef = useRef()
